@@ -151,8 +151,8 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content animate-on-scroll">
-          <h1>Hi, I'm <span className="highlight">Nate</span></h1>
-          <p className="tagline">Full-Stack Developer | Building Digital Experiences</p>
+          <h1>Hi, I'm <span className="highlight">Nateliso</span></h1>
+          <p className="tagline">Full-Stack Developer | React Enthusiast | Problem Solver</p>
           <div className="hero-buttons">
             <button className="btn primary" onClick={() => scrollToSection('projects')}>View Projects</button>
             <button className="btn secondary" onClick={() => scrollToSection('contact')}>Contact Me</button>
@@ -170,21 +170,29 @@ function App() {
             <div className="about-text">
               <h2>About Me</h2>
               <p>
-                I'm a passionate full-stack developer with a love for creating 
-                clean, efficient, and user-friendly web applications. With expertise 
-                in the MERN stack, I bring ideas to life through code.
+                I'm Liso Mhlana (Nateliso), a Full-Stack Web Developer with a growing skill set, 
+                building modern, responsive web applications with <strong>React</strong> and <strong>CSS</strong>. 
+                My background includes completing multiple certifications through freeCodeCamp 
+                and deploying real-world projects — including a full-stack e-commerce app.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies, 
-                contributing to open-source projects, and continuously learning 
-                to stay ahead in this ever-evolving field.
+                I enjoy crafting intuitive user interfaces and solving complex logic with clean, 
+                scalable code. Alongside my frontend skills, I've worked with <strong>Node.js</strong>, <strong>MongoDB</strong>, and <strong>PostgreSQL</strong> to build dynamic backends and RESTful APIs.
+              </p>
+              <p>
+                Beyond the code, I love learning new tools, refining my UI designs, structuring 
+                backend databases, and collaborating on meaningful projects. I'm always exploring 
+                new ways to improve my craft.
               </p>
               <div className="skills">
                 <span className="skill-tag">React</span>
                 <span className="skill-tag">Node.js</span>
                 <span className="skill-tag">MongoDB</span>
+                <span className="skill-tag">PostgreSQL</span>
                 <span className="skill-tag">Express</span>
                 <span className="skill-tag">JavaScript</span>
+                <span className="skill-tag">REST APIs</span>
+                <span className="skill-tag">TypeScript</span>
                 <span className="skill-tag">CSS</span>
                 <span className="skill-tag">Git</span>
               </div>
@@ -229,7 +237,7 @@ function App() {
           <div className="cert-grid">
             {certifications.map((cert, index) => (
               <div key={index} className="cert-card animate-on-scroll">
-                <div className="cert-icon">📜</div>
+                <div className="cert-icon">🏅</div>
                 <h3>{cert.name}</h3>
                 <p>{cert.issuer}</p>
                 <a href={cert.link} target="_blank" rel="noopener noreferrer" className="btn small secondary">View Certificate</a>
@@ -325,7 +333,7 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} Nate. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Nateliso. All rights reserved.</p>
           <p>Built with React & ❤️</p>
         </div>
       </footer>

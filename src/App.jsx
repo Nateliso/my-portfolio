@@ -68,10 +68,14 @@ function App() {
   ]
 
   const certifications = [
-    { name: "Responsive Web Design", issuer: "freeCodeCamp", link: "#" },
-    { name: "JavaScript Algorithms and Data Structures", issuer: "freeCodeCamp", link: "#" },
-    { name: "Front End Development Libraries", issuer: "freeCodeCamp", link: "#" }
+    { name: "Responsive Web Design", issuer: "freeCodeCamp", link: "https://freecodecamp.org/certification/nateliso/responsive-web-design" },
+    { name: "JavaScript Algorithms and Data Structures", issuer: "freeCodeCamp", link: "https://freecodecamp.org/certification/nateliso/javascript-algorithms-and-data-structures-v8" },
+    { name: "Front End Development Libraries", issuer: "freeCodeCamp", link: "https://freecodecamp.org/certification/nateliso/front-end-development-libraries" },
+    { name: "Data Visualization", issuer: "freeCodeCamp", link: "https://freecodecamp.org/certification/nateliso/data-visualization" },
+    { name: "Back End Development and APIs", issuer: "freeCodeCamp", link: "https://freecodecamp.org/certification/nateliso/back-end-development-and-apis" },
+    { name: "Scientific Computing with Python", issuer: "freeCodeCamp", link: "https://freecodecamp.org/certification/nateliso/scientific-computing-with-python-v7" }
   ]
+
 
   useEffect(() => {
     document.body.classList.toggle('dark', darkMode)

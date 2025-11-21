@@ -19,8 +19,8 @@ function App() {
     },
     {
       title: "Movie Explorer",
-      description: "A front-end movie search application that allows users to search for movies, add them to a personal watchlist, and view trailers directly via YouTube. Built using React and external APIs.",
-      tech: ["React", "Node.js", "CSS", "APIs"],
+      description: "A full-stack web application for browsing, searching, and managing a personalized movie watchlist with ratings. Users can search for movies using The Movie Database (TMDB) API, add/remove movies from their watchlist, rate movies, and watch trailers.",
+      tech: ["React", "Vite", "Node.js", "Express", "PostgreSQL", "TMDB API"],
       image: "/images/movie-explorer.png",
       liveLink: "https://nate-movie-explorer.netlify.app",
       repoLink: "https://github.com/Nateliso/movie-explorer"
@@ -127,7 +127,7 @@ function App() {
       {/* Navbar */}
       <nav className="navbar">
         <div className="nav-container">
-          <a href="#" className="logo">Nate</a>
+          <a href="#" className="logo">Nateliso</a>
           
           <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
             <span></span>

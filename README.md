@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my projects, skills, and certifications as a Full-Stack Web Developer.
 
-🔗 **Live Site:** [nateliso-portfolio.netlify.app](https://nateliso-portfolio.netlify.app)
+🔗 **Live Site:** [nateliso-portfolio.netlify.app](https://nateliso-portfolio.netlify.app) ✅
 
 ## Features
 

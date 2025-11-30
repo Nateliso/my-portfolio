@@ -24,7 +24,7 @@ A modern, responsive portfolio website showcasing my projects, skills, and certi
 
 - **Hero** - Introduction and call-to-action
 - **About Me** - Background, skills, and tech stack
-- **Projects** - 7 featured projects with descriptions and links
+- **Projects** - 8 featured projects with descriptions and links
 - **Certifications** - freeCodeCamp certifications
 - **Contact** - Email form and social links
 
@@ -33,7 +33,8 @@ A modern, responsive portfolio website showcasing my projects, skills, and certi
 | Project | Description | Links |
 |---------|-------------|-------|
 | Tech Haven | Full-stack MERN e-commerce app | [Live](https://nate-tech-haven.netlify.app) • [Repo](https://github.com/Nateliso/nate-tech-haven) |
-| Movie Explorer | Movie search app with watchlist | [Live](https://nate-movie-explorer.netlify.app) • [Repo](https://github.com/Nateliso/movie-explorer) |
+| Movie Explorer | Full-stack movie watchlist with ratings | [Live](https://nate-movie-explorer.netlify.app) • [Repo](https://github.com/Nateliso/movie-explorer) |
+| Iron Paradise Gym | WordPress gym website | [Live](http://ironparadisegym.rf.gd) |
 | Trivia Rush | Quiz game with timer | [Live](https://nate-trivia.netlify.app) • [Repo](https://github.com/Nateliso/trivia-game) |
 | Expense Tracker | Daily expense management | [Live](https://nate-expenses.netlify.app) • [Repo](https://github.com/Nateliso/Expense-tracker) |
 | Expense Tracker Landing | Promotional landing page | [Live](https://nate-landing.netlify.app) • [Repo](https://github.com/Nateliso/landing-page) |

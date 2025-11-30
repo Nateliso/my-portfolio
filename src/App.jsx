@@ -34,6 +34,14 @@ function App() {
       repoLink: "https://github.com/Nateliso/trivia-game"
     },
     {
+      title: "Iron Paradise Gym",
+      description: "A professional multi-page gym website built with WordPress and Astra theme. Features class schedules, trainer profiles, membership pricing tiers, contact forms, and a fully responsive design for fitness enthusiasts.",
+      tech: ["WordPress", "Astra Theme", "Contact Form 7", "CSS"],
+      image: "/images/iron-paradise-gym.png",
+      liveLink: "http://ironparadisegym.rf.gd",
+      repoLink: null
+    },
+    {
       title: "Expense Tracker",
       description: "A simple yet effective app that helps users track and manage their daily expenses. Displays income and expense history, and calculates overall balance.",
       tech: ["React", "Node.js", "CSS"],
@@ -152,7 +160,7 @@ function App() {
       <section className="hero">
         <div className="hero-content animate-on-scroll">
           <h1>Hi, I'm <span className="highlight">Nateliso</span></h1>
-          <p className="tagline">Full-Stack Developer | React Enthusiast | Problem Solver</p>
+          <p className="tagline">Software Developer | React Enthusiast | Problem Solver</p>
           <div className="hero-buttons">
             <button className="btn primary" onClick={() => scrollToSection('projects')}>View Projects</button>
             <button className="btn secondary" onClick={() => scrollToSection('contact')}>Contact Me</button>
@@ -170,19 +178,19 @@ function App() {
             <div className="about-text">
               <h2>About Me</h2>
               <p>
-                I'm Liso Mhlana (Nateliso), a Full-Stack Web Developer with a growing skill set, 
-                building modern, responsive web applications with <strong>React</strong> and <strong>CSS</strong>. 
-                My background includes completing multiple certifications through freeCodeCamp 
-                and deploying real-world projects — including a full-stack e-commerce app.
+                I'm Liso Mhlana (Nateliso), a Software Developer specializing in full-stack web development. I build modern, responsive web applications with <strong>React</strong> and <strong>CSS</strong>,
+                and create professional <strong>WordPress</strong> sites with custom themes and plugins.
+                My background includes completing multiple certifications through freeCodeCamp and deploying real-world projects — including a full-stack e-commerce app and client-focused WordPress solutions.</p>
+              <p>
+                I enjoy crafting intuitive user interfaces and solving complex logic with clean,
+                scalable code. Alongside my frontend skills,
+                I've worked with <strong>Node.js</strong>, <strong>MongoDB</strong>, and <strong>PostgreSQL</strong> to build dynamic backends and RESTful APIs.
+                Whether it's a custom React application or a WordPress site tailored to specific needs, I focus on delivering functional, user-friendly solutions.
               </p>
               <p>
-                I enjoy crafting intuitive user interfaces and solving complex logic with clean, 
-                scalable code. Alongside my frontend skills, I've worked with <strong>Node.js</strong>, <strong>MongoDB</strong>, and <strong>PostgreSQL</strong> to build dynamic backends and RESTful APIs.
-              </p>
-              <p>
-                Beyond the code, I love learning new tools, refining my UI designs, structuring 
-                backend databases, and collaborating on meaningful projects. I'm always exploring 
-                new ways to improve my craft.
+                Beyond the code, I love learning new tools, refining my UI designs, structuring backend databases,
+                and collaborating on meaningful projects.
+                I'm always exploring new ways to improve my craft and adapt to evolving technologies.
               </p>
               <div className="skills">
                 <span className="skill-tag">React</span>
@@ -195,6 +203,7 @@ function App() {
                 <span className="skill-tag">TypeScript</span>
                 <span className="skill-tag">CSS</span>
                 <span className="skill-tag">Git</span>
+                <span className="skill-tag">WordPress</span>
               </div>
             </div>
           </div>
@@ -334,7 +343,6 @@ function App() {
       <footer className="footer">
         <div className="container">
           <p>&copy; {new Date().getFullYear()} Nateliso. All rights reserved.</p>
-          <p>Built with React & ❤️</p>
         </div>
       </footer>
     </div>

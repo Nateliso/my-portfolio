@@ -18,6 +18,22 @@ function App() {
       repoLink: "https://github.com/Nateliso/nate-tech-haven"
     },
     {
+      title: "Iron Paradise Gym",
+      description: "A professional multi-page gym website built with WordPress and Astra theme. Features class schedules, trainer profiles, membership pricing tiers, contact forms, and a fully responsive design for fitness enthusiasts.",
+      tech: ["WordPress", "Astra Theme", "Contact Form 7", "CSS"],
+      image: "/images/iron-paradise-gym.png",
+      liveLink: "http://ironparadisegym.rf.gd",
+      repoLink: null
+    },
+    {
+      title: "InsideTech",
+      description: "A modern tech blog built with WordPress and Astra theme. Features in-depth reviews of smartphones, laptops, and apps, alongside the latest tech news and practical tutorials. Includes categorized content, contact forms, and a fully responsive magazine-style design.",
+      tech: ["WordPress", "Astra Theme", "Contact Form 7", "CSS"],
+      image: "/images/tech-inside.png",
+      liveLink: "https://insidetech.rf.gd",
+      repoLink: null
+    },
+    {
       title: "Movie Explorer",
       description: "A full-stack web application for browsing, searching, and managing a personalized movie watchlist with ratings. Users can search for movies using The Movie Database (TMDB) API, add/remove movies from their watchlist, rate movies, and watch trailers.",
       tech: ["React", "Vite", "Node.js", "Express", "PostgreSQL", "TMDB API"],
@@ -32,14 +48,6 @@ function App() {
       image: "/images/trivia-rush.png",
       liveLink: "https://nate-trivia.netlify.app",
       repoLink: "https://github.com/Nateliso/trivia-game"
-    },
-    {
-      title: "Iron Paradise Gym",
-      description: "A professional multi-page gym website built with WordPress and Astra theme. Features class schedules, trainer profiles, membership pricing tiers, contact forms, and a fully responsive design for fitness enthusiasts.",
-      tech: ["WordPress", "Astra Theme", "Contact Form 7", "CSS"],
-      image: "/images/iron-paradise-gym.png",
-      liveLink: "http://ironparadisegym.rf.gd",
-      repoLink: null
     },
     {
       title: "Expense Tracker",
@@ -159,7 +167,7 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content animate-on-scroll">
-          <h1>Hi, I'm <span className="highlight">Nateliso</span></h1>
+          <h1>Hi, I'm <span className="highlight">Liso Mhlana</span></h1>
           <p className="tagline">Software Developer | React Enthusiast | Problem Solver</p>
           <div className="hero-buttons">
             <button className="btn primary" onClick={() => scrollToSection('projects')}>View Projects</button>

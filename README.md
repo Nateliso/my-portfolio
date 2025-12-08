@@ -24,7 +24,7 @@ A modern, responsive portfolio website showcasing my projects, skills, and certi
 
 - **Hero** - Introduction and call-to-action
 - **About Me** - Background, skills, and tech stack
-- **Projects** - 8 featured projects with descriptions and links
+- **Projects** - 10 featured projects with descriptions and links
 - **Certifications** - freeCodeCamp certifications
 - **Contact** - Email form and social links
 

@@ -18,6 +18,14 @@ function App() {
       repoLink: "https://github.com/Nateliso/nate-tech-haven"
     },
     {
+      title: "New Tech Haven",
+      description: "A fully functional e-commerce website for premium tech products built with WordPress and WooCommerce. Features complete shopping cart and checkout system, secure payment gateway integration, product categorization with filtering, responsive design across all devices, customer account management, and professional policy pages.",
+      tech: ["WordPress", "WooCommerce", "Kadence Theme", "Contact Form 7", "PHP", "CSS3", "Gutenberg"],
+      image: "/images/tech-haven-store.png",
+      liveLink: "http://newtechhaven.rf.gd",
+      repoLink: null
+    },
+    {
       title: "Iron Paradise Gym",
       description: "A professional multi-page gym website built with WordPress and Astra theme. Features class schedules, trainer profiles, membership pricing tiers, contact forms, and a fully responsive design for fitness enthusiasts.",
       tech: ["WordPress", "Astra Theme", "Contact Form 7", "CSS"],
@@ -186,7 +194,7 @@ function App() {
             <div className="about-text">
               <h2>About Me</h2>
               <p>
-                I'm Liso Mhlana (Nateliso), a Software Developer specializing in full-stack web development. I build modern, responsive web applications with <strong>React</strong> and <strong>CSS</strong>,
+                I'm Liso Mhlana (Nateliso), a <strong>Software Developer</strong> specializing in full-stack web development. I build modern, responsive web applications with <strong>React</strong> and <strong>CSS</strong>,
                 and create professional <strong>WordPress</strong> sites with custom themes and plugins.
                 My background includes completing multiple certifications through freeCodeCamp and deploying real-world projects — including a full-stack e-commerce app and client-focused WordPress solutions.</p>
               <p>
@@ -212,6 +220,7 @@ function App() {
                 <span className="skill-tag">CSS</span>
                 <span className="skill-tag">Git</span>
                 <span className="skill-tag">WordPress</span>
+                <span className="skill-tag">WooCommerce</span>
               </div>
             </div>
           </div>

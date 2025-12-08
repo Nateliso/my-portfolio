@@ -33,6 +33,7 @@ A modern, responsive portfolio website showcasing my projects, skills, and certi
 | Project | Description | Links |
 |---------|-------------|-------|
 | Tech Haven | Full-stack MERN e-commerce app | [Live](https://nate-tech-haven.netlify.app) • [Repo](https://github.com/Nateliso/nate-tech-haven) |
+| New Tech Haven | WordPress e-commerce website | [Live](http://newtechhaven.rf.gd) |
 | Movie Explorer | Full-stack movie watchlist with ratings | [Live](https://nate-movie-explorer.netlify.app) • [Repo](https://github.com/Nateliso/movie-explorer) |
 | Iron Paradise Gym | WordPress gym website | [Live](http://ironparadisegym.rf.gd) |
 | Inside Tech | WordPress tech blog | [Live](https://insidetech.rf.gd) |

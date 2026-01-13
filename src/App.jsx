@@ -26,6 +26,14 @@ function App() {
       repoLink: null
     },
     {
+      title: "Cozy Cup Café",
+      description: "A warm, modern café website built with WordPress and Elementor (Free). Designed as a small business demo with a focus on clean layout, responsive design, and usability without relying on premium plugins. Includes a custom menu layout, contact form, and globally managed header and footer.",
+      tech: ["WordPress", "Elementor (Free)", "Hello Elementor Theme", "Contact Form 7", "CSS"],
+      image: "/images/cozy-cup-cafe.png",
+      liveLink: "https://cozycupcafe.rf.gd",
+      repoLink: null
+    },
+    {
       title: "Iron Paradise Gym",
       description: "A professional multi-page gym website built with WordPress and Astra theme. Features class schedules, trainer profiles, membership pricing tiers, contact forms, and a fully responsive design for fitness enthusiasts.",
       tech: ["WordPress", "Astra Theme", "Contact Form 7", "CSS"],
@@ -176,7 +184,7 @@ function App() {
       <section className="hero">
         <div className="hero-content animate-on-scroll">
           <h1>Hi, I'm <span className="highlight">Liso Mhlana</span></h1>
-          <p className="tagline">Software Developer | React Enthusiast | Problem Solver</p>
+          <p className="tagline">Software Developer · Full-Stack Web · React & WordPress</p>
           <div className="hero-buttons">
             <button className="btn primary" onClick={() => scrollToSection('projects')}>View Projects</button>
             <button className="btn secondary" onClick={() => scrollToSection('contact')}>Contact Me</button>
@@ -194,19 +202,16 @@ function App() {
             <div className="about-text">
               <h2>About Me</h2>
               <p>
-                I'm Liso Mhlana (Nateliso), a <strong>Software Developer</strong> specializing in full-stack web development. I build modern, responsive web applications with <strong>React</strong> and <strong>CSS</strong>,
-                and create professional <strong>WordPress</strong> sites with custom themes and plugins.
-                My background includes completing multiple certifications through freeCodeCamp and deploying real-world projects — including a full-stack e-commerce app and client-focused WordPress solutions.</p>
-              <p>
-                I enjoy crafting intuitive user interfaces and solving complex logic with clean,
-                scalable code. Alongside my frontend skills,
-                I've worked with <strong>Node.js</strong>, <strong>MongoDB</strong>, and <strong>PostgreSQL</strong> to build dynamic backends and RESTful APIs.
-                Whether it's a custom React application or a WordPress site tailored to specific needs, I focus on delivering functional, user-friendly solutions.
+                I'm Liso Mhlana (Nateliso), a <strong>Software Developer</strong> focused on building modern, responsive web applications and practical digital solutions. I work across the stack using <strong>React</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, and build professional <strong>WordPress</strong> sites tailored to real client needs.
               </p>
               <p>
-                Beyond the code, I love learning new tools, refining my UI designs, structuring backend databases,
-                and collaborating on meaningful projects.
-                I'm always exploring new ways to improve my craft and adapt to evolving technologies.
+                My background includes earning multiple certifications through <strong>freeCodeCamp</strong> and developing real-world projects, including a full-stack e-commerce application and custom WordPress websites. I enjoy translating ideas into clean, intuitive user interfaces while keeping performance, usability, and maintainability in mind.
+              </p>
+              <p>
+                On the backend, I’ve worked with <strong>Node.js</strong>, <strong>MongoDB</strong>, and <strong>PostgreSQL</strong> to build RESTful APIs and data-driven applications. Whether I’m developing a React interface or structuring a WordPress solution, my goal is to deliver scalable, user-friendly results.
+              </p>
+              <p>
+                Beyond writing code, I’m constantly learning — refining UI design, improving backend architecture, and exploring better development workflows. I value clean structure, thoughtful problem-solving, and steady growth through hands-on projects and collaboration.
               </p>
               <div className="skills">
                 <span className="skill-tag">React</span>

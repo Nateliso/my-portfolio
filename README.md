@@ -37,6 +37,7 @@ A modern, responsive portfolio website showcasing my projects, skills, and certi
 | Movie Explorer | Full-stack movie watchlist with ratings | [Live](https://nate-movie-explorer.netlify.app) • [Repo](https://github.com/Nateliso/movie-explorer) |
 | Iron Paradise Gym | WordPress gym website | [Live](http://ironparadisegym.rf.gd) |
 | Inside Tech | WordPress tech blog | [Live](https://insidetech.rf.gd) |
+| Cozy Cup Café | WordPress café website | [Live](https://cozycupcafe.rf.gd) |
 | Trivia Rush | Quiz game with timer | [Live](https://nate-trivia.netlify.app) • [Repo](https://github.com/Nateliso/trivia-game) |
 | Expense Tracker | Daily expense management | [Live](https://nate-expenses.netlify.app) • [Repo](https://github.com/Nateliso/Expense-tracker) |
 | Expense Tracker Landing | Promotional landing page | [Live](https://nate-landing.netlify.app) • [Repo](https://github.com/Nateliso/landing-page) |

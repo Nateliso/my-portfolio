@@ -24,9 +24,16 @@ A modern, responsive portfolio website showcasing my projects, skills, and certi
 
 - **Hero** - Introduction and call-to-action
 - **About Me** - Background, skills, and tech stack
+- **Business Website** - Nateliso Web Solutions, my freelance web development business
 - **Projects** - 11 featured projects with descriptions and links
 - **Certifications** - freeCodeCamp certifications
 - **Contact** - Email form and social links
+
+## Business Website
+
+| Project | Description | Link |
+|---------|-------------|------|
+| Nateliso Web Solutions | My freelance web development business — WordPress websites for small business clients | [Visit Site](https://natelisowebsolutions.co.za) |
 
 ## Projects Featured
 

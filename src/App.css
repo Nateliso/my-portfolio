@@ -301,6 +301,56 @@ body {
   font-weight: 500;
 }
 
+/* ===== Business Section ===== */
+.business {
+  padding: 100px 0;
+  background: var(--bg-secondary);
+}
+
+.business-card {
+  background: var(--bg-card);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  border: 1px solid var(--border);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.business-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.business-image {
+  overflow: hidden;
+  height: 280px;
+}
+
+.business-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.business-info {
+  padding: 2rem;
+}
+
+.business-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.business-info p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
 /* ===== Projects Section ===== */
 .projects {
   padding: 100px 0;

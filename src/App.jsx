@@ -202,7 +202,7 @@ function App() {
             <div className="about-text">
               <h2>About Me</h2>
               <p>
-                I'm Liso Mhlana (Nateliso), a <strong>Software Developer</strong> focused on building modern, responsive web applications and practical digital solutions. I work across the stack using <strong>React</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, and build professional <strong>WordPress</strong> sites tailored to real client needs.
+                I'm Liso Mhlana (Nateliso), a <strong>Software Developer</strong> focused on building modern, responsive web applications and practical digital solutions. I work across the stack using <strong>React</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, and run <strong>Nateliso Web Solutions</strong>, building and maintaining professional <strong>WordPress</strong> sites for small business clients.
               </p>
               <p>
                 My background includes earning multiple certifications through <strong>freeCodeCamp</strong> and developing real-world projects, including a full-stack e-commerce application and custom WordPress websites. I enjoy translating ideas into clean, intuitive user interfaces while keeping performance, usability, and maintainability in mind.
@@ -231,7 +231,36 @@ function App() {
           </div>
         </div>
       </section>
-
+      {/* Business Website Section */}
+      <section id="business" className="business">
+        <div className="container">
+          <h2 className="section-title animate-on-scroll">Business Website</h2>
+          <div className="business-card animate-on-scroll">
+            <div className="business-image">
+              <img src="/images/nateliso-web-solutions.png" alt="Nateliso Web Solutions" />
+            </div>
+            <div className="business-info">
+              <h3>NatelisoWebSolutions</h3>
+              <p>
+                The official website for my freelance web development business, where I design and maintain
+                WordPress websites for small businesses. Built with Elementor and Astra, featuring a custom
+                responsive header and navigation, and a Contact Form 7 setup configured to forward enquiries
+                directly to my inbox for prompt client response.
+              </p>
+              <div className="tech-stack">
+                <span className="tech-tag">WordPress</span>
+                <span className="tech-tag">Elementor</span>
+                <span className="tech-tag">Astra Theme</span>
+                <span className="tech-tag">Contact Form 7</span>
+                <span className="tech-tag">cPanel</span>
+              </div>
+              <div className="project-links">
+                <a href="https://natelisowebsolutions.co.za" target="_blank" rel="noopener noreferrer" className="btn small primary">Visit Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Projects Section */}
       <section id="projects" className="projects">
         <div className="container">

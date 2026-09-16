@@ -169,6 +169,7 @@ function App() {
 
           <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
             <li><button onClick={() => scrollToSection('about')}>About</button></li>
+            <li><button onClick={() => scrollToSection('business')}>Business</button></li>
             <li><button onClick={() => scrollToSection('projects')}>Projects</button></li>
             <li><button onClick={() => scrollToSection('certifications')}>Certifications</button></li>
             <li><button onClick={() => scrollToSection('contact')}>Contact</button></li>
@@ -202,7 +203,7 @@ function App() {
             <div className="about-text">
               <h2>About Me</h2>
               <p>
-                I'm Liso Mhlana (Nateliso), a <strong>Software Developer</strong> focused on building modern, responsive web applications and practical digital solutions. I work across the stack using <strong>React</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, and run <strong>Nateliso Web Solutions</strong>, building and maintaining professional <strong>WordPress</strong> sites for small business clients.
+                I'm Liso Mhlana (Nateliso), a <strong>Software Developer</strong> focused on building modern, responsive web applications and practical digital solutions. I work across the stack using <strong>React</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, and run <strong>NatelisoWebSolutions</strong>, building and maintaining professional <strong>WordPress</strong> sites for small business clients.
               </p>
               <p>
                 My background includes earning multiple certifications through <strong>freeCodeCamp</strong> and developing real-world projects, including a full-stack e-commerce application and custom WordPress websites. I enjoy translating ideas into clean, intuitive user interfaces while keeping performance, usability, and maintainability in mind.
@@ -211,7 +212,7 @@ function App() {
                 On the backend, I’ve worked with <strong>Node.js</strong>, <strong>MongoDB</strong>, and <strong>PostgreSQL</strong> to build RESTful APIs and data-driven applications. Whether I’m developing a React interface or structuring a WordPress solution, my goal is to deliver scalable, user-friendly results.
               </p>
               <p>
-                Beyond writing code, I’m constantly learning — refining UI design, improving backend architecture, and exploring better development workflows. I value clean structure, thoughtful problem-solving, and steady growth through hands-on projects and collaboration.
+                Beyond writing code, I’m constantly learning refining UI design, improving backend architecture, and exploring better development workflows. I value clean structure, thoughtful problem-solving, and steady growth through hands-on projects and collaboration.
               </p>
               <div className="skills">
                 <span className="skill-tag">React</span>
@@ -237,7 +238,7 @@ function App() {
           <h2 className="section-title animate-on-scroll">Business Website</h2>
           <div className="business-card animate-on-scroll">
             <div className="business-image">
-              <img src="/images/nateliso-web-solutions.png" alt="Nateliso Web Solutions" />
+              <img src="/images/nateliso-web-solutions.png" alt="NatelisoWebSolutions" />
             </div>
             <div className="business-info">
               <h3>NatelisoWebSolutions</h3>

@@ -13,7 +13,7 @@ function App() {
       title: "Tech Haven",
       description: "A full-stack MERN e-commerce application for buying, renting, and returning tech products. Built with React, Node.js, Express, and MongoDB, it offers dynamic product listings, user interaction, and inventory control.",
       tech: ["React", "Node.js", "MongoDB", "Axios", "JWT", "Atlas", "CSS"],
-      image: "/images/tech-haven.png",
+      image: "/images/tech-haven.webp",
       liveLink: "https://nate-tech-haven.netlify.app",
       repoLink: "https://github.com/Nateliso/nate-tech-haven"
     },
@@ -21,7 +21,7 @@ function App() {
       title: "New Tech Haven",
       description: "A fully functional e-commerce website for premium tech products built with WordPress and WooCommerce. Features complete shopping cart and checkout system, secure payment gateway integration, product categorization with filtering, responsive design across all devices, customer account management, and professional policy pages.",
       tech: ["WordPress", "WooCommerce", "Kadence Theme", "Contact Form 7", "PHP", "CSS3", "Gutenberg"],
-      image: "/images/tech-haven-store.png",
+      image: "/images/tech-haven-store.webp",
       liveLink: "http://newtechhaven.rf.gd",
       repoLink: null
     },
@@ -29,7 +29,7 @@ function App() {
       title: "Cozy Cup Café",
       description: "A warm, modern café website built with WordPress and Elementor (Free). Designed as a small business demo with a focus on clean layout, responsive design, and usability without relying on premium plugins. Includes a custom menu layout, contact form, and globally managed header and footer.",
       tech: ["WordPress", "Elementor (Free)", "Hello Elementor Theme", "Contact Form 7", "CSS"],
-      image: "/images/cozy-cup-cafe.png",
+      image: "/images/cozy-cup-cafe.webp",
       liveLink: "https://cozycupcafe.rf.gd",
       repoLink: null
     },
@@ -37,7 +37,7 @@ function App() {
       title: "Iron Paradise Gym",
       description: "A professional multi-page gym website built with WordPress and Astra theme. Features class schedules, trainer profiles, membership pricing tiers, contact forms, and a fully responsive design for fitness enthusiasts.",
       tech: ["WordPress", "Astra Theme", "Contact Form 7", "CSS"],
-      image: "/images/iron-paradise-gym.png",
+      image: "/images/iron-paradise-gym.webp",
       liveLink: "http://ironparadisegym.rf.gd",
       repoLink: null
     },
@@ -45,7 +45,7 @@ function App() {
       title: "InsideTech",
       description: "A modern tech blog built with WordPress and Astra theme. Features in-depth reviews of smartphones, laptops, and apps, alongside the latest tech news and practical tutorials. Includes categorized content, contact forms, and a fully responsive magazine-style design.",
       tech: ["WordPress", "Astra Theme", "Contact Form 7", "CSS"],
-      image: "/images/tech-inside.png",
+      image: "/images/tech-inside.webp",
       liveLink: "https://insidetech.rf.gd",
       repoLink: null
     },
@@ -53,7 +53,7 @@ function App() {
       title: "Movie Explorer",
       description: "A full-stack web application for browsing, searching, and managing a personalized movie watchlist with ratings. Users can search for movies using The Movie Database (TMDB) API, add/remove movies from their watchlist, rate movies, and watch trailers.",
       tech: ["React", "Vite", "Node.js", "Express", "PostgreSQL", "TMDB API"],
-      image: "/images/movie-explorer.png",
+      image: "/images/movie-explorer.webp",
       liveLink: "https://nate-movie-explorer.netlify.app",
       repoLink: "https://github.com/Nateliso/movie-explorer"
     },
@@ -61,7 +61,7 @@ function App() {
       title: "Trivia Rush",
       description: "A responsive front-end quiz game featuring two categories: Science and History. Users answer as many questions as possible within a 30-second timer. Built with React and styled with CSS.",
       tech: ["React", "Node.js", "CSS"],
-      image: "/images/trivia-rush.png",
+      image: "/images/trivia-rush.webp",
       liveLink: "https://nate-trivia.netlify.app",
       repoLink: "https://github.com/Nateliso/trivia-game"
     },
@@ -69,7 +69,7 @@ function App() {
       title: "Expense Tracker",
       description: "A simple yet effective app that helps users track and manage their daily expenses. Displays income and expense history, and calculates overall balance.",
       tech: ["React", "Node.js", "CSS"],
-      image: "/images/expense-tracker.png",
+      image: "/images/expense-tracker.webp",
       liveLink: "https://nate-expenses.netlify.app",
       repoLink: "https://github.com/Nateliso/Expense-tracker"
     },
@@ -77,7 +77,7 @@ function App() {
       title: "Expense Tracker Landing Page",
       description: "A clean and responsive landing page designed to promote the Expense Tracker app. Highlights features, benefits, and includes call-to-action sections.",
       tech: ["React", "Node.js", "CSS"],
-      image: "/images/expense-landing.png",
+      image: "/images/expense-landing.webp",
       liveLink: "https://nate-landing.netlify.app",
       repoLink: "https://github.com/Nateliso/landing-page"
     },
@@ -85,7 +85,7 @@ function App() {
       title: "Weather App",
       description: "A weather forecasting app that displays real-time weather data for searched locations, including temperature and conditions. Built using weather APIs and styled with custom CSS.",
       tech: ["React", "Node.js", "CSS", "APIs"],
-      image: "/images/weather-app.png",
+      image: "/images/weather-app.webp",
       liveLink: "https://nateweather.netlify.app",
       repoLink: "https://github.com/Nateliso/Weather-App"
     },
@@ -93,7 +93,7 @@ function App() {
       title: "My To-Do List",
       description: "A productivity app designed to help users manage daily tasks and routines efficiently. Features task creation, completion toggles, and dynamic task updates.",
       tech: ["React", "Node.js", "CSS"],
-      image: "/images/todo-list.png",
+      image: "/images/todo-list.webp",
       liveLink: "https://nateliso-todo-list.netlify.app",
       repoLink: "https://github.com/Nateliso/TodoList"
     }
@@ -237,7 +237,7 @@ function App() {
           <h2 className="section-title animate-on-scroll">Business Website</h2>
           <div className="business-card animate-on-scroll">
             <div className="business-image">
-              <img src="/images/nateliso-web-solutions.png" alt="NatelisoWebSolutions" loading="lazy" decoding="async" />
+              <img src="/images/nateliso-web-solutions.webp" alt="NatelisoWebSolutions" loading="lazy" decoding="async" />
             </div>
             <div className="business-info">
               <h3>NatelisoWebSolutions</h3>

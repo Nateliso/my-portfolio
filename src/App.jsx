@@ -198,7 +198,7 @@ function App() {
         <div className="container">
           <div className="about-content animate-on-scroll">
             <div className="about-image">
-              <img src="/images/profile.jpg" alt="Nate" className="profile-img" />
+              <img src="/images/profile.jpg" alt="Nate" className="profile-img" loading="lazy" decoding="async" />
             </div>
             <div className="about-text">
               <h2>About Me</h2>
@@ -222,7 +222,6 @@ function App() {
                 <span className="skill-tag">Express</span>
                 <span className="skill-tag">JavaScript</span>
                 <span className="skill-tag">REST APIs</span>
-                <span className="skill-tag">TypeScript</span>
                 <span className="skill-tag">CSS</span>
                 <span className="skill-tag">Git</span>
                 <span className="skill-tag">WordPress</span>
@@ -238,12 +237,12 @@ function App() {
           <h2 className="section-title animate-on-scroll">Business Website</h2>
           <div className="business-card animate-on-scroll">
             <div className="business-image">
-              <img src="/images/nateliso-web-solutions.png" alt="NatelisoWebSolutions" />
+              <img src="/images/nateliso-web-solutions.png" alt="NatelisoWebSolutions" loading="lazy" decoding="async" />
             </div>
             <div className="business-info">
               <h3>NatelisoWebSolutions</h3>
               <p>
-                The official website for my freelance web development business, where I design and maintain
+                The official website for my freelance web development business, where I am designing and maintaining
                 WordPress websites for small businesses. Built with Elementor and Astra, featuring a custom
                 responsive header and navigation, and a Contact Form 7 setup configured to forward enquiries
                 directly to my inbox for prompt client response.
@@ -270,7 +269,7 @@ function App() {
             {projects.map((project, index) => (
               <div key={index} className="project-card animate-on-scroll" style={{ animationDelay: `${index * 0.1}s` }}>
                 <div className="project-image">
-                  <img src={project.image} alt={project.title} />
+                  <img src={project.image} alt={project.title} loading="lazy" decoding="async"/>
                 </div>
                 <div className="project-info">
                   <h3>{project.title}</h3>
@@ -282,7 +281,9 @@ function App() {
                   </div>
                   <div className="project-links">
                     <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="btn small primary">Live Demo</a>
-                    <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn small secondary">GitHub</a>
+                    {project.repoLink && (
+                      <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn small secondary">GitHub</a>
+                    )}
                   </div>
                 </div>
               </div>
